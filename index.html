@@ -8,33 +8,39 @@
   <meta name="author" content="Malin Högdahl Buhl">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <title>Projektarbete av Malin Högdahl Buhl och Annie Renhorn</title>
 </head>
 
 <body>
-  <header class="py-5 text-center container">
+  <header class="py-5 container">
     <div class="row">
-      <div class="col-sm-12">
-        <img src="svg-files/grupp_läkare_sjuksköterskor.svg" class="d-flex justify-content-center flex-wrap" alt="En grupp med sjuksköterskor och läkare står framför ett sjukhus med en ambulans på sidan">
+      <div class="col-sm-auto">
+        <img src="svg-files/grupp_läkare_sjuksköterskor.svg" class="picture_header" alt="En grupp med sjuksköterskor och läkare står framför ett sjukhus med en ambulans på sidan">
         <h1 class="title-header display-1 text-start mt-5">Könsrelaterade utmaningar inom examinering och sysselsättning av sjuksköterskor och läkare</h1>
-        <p class="text-right lead"><em>en analys över åren 2012-2019</em></p>
+        <p class="lead text-center"><em class="pl-10">en analys över åren 2012-2019</em></p>
+        
       </div>
     </div>
   </header>
-  <main class="py-5 bg-dark min-vh-100">
+  <main class="py-5 min-vh-100">
     <div class="container">
-      <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3">
+      <div class="row row-cols-1 g-3">
        <!-- BAR CHART -->
         <div class="col">
           <section class="card h-100" aria-labelledby="cardTitleOne">
-            <header class="card-header bg-white border-0">
-              <h4 class="card-title text-center text-uppercase" id="cardTitleOne">Bar Chart</h4>
-              <p class="card-subtitle text-center">International dollars</p>
+            <header class="card-header border-0">
+              <h4 class="card-title text-center" id="cardTitleOne">Hur många fick en sjuksköterskelegitimation?</h4>
             </header>
-            <div class="card-body d-flex justify-content-center flex-wrap">
-              <canvas id="bar" height="400" width="400" aria-label="Bar Plot" role="img"></canvas>
-            </div>
-            <div class="card-footer bg-white border-0">
+              <div class="years">
+                <p class="left">2012</p>
+                <p class="right">2019</p>
+              </div>
+              <div class="image">
+                <img src="svg-files/sjuksköterska_kvinna.svg" class="picture_nurse-one" alt="En illustration på en kvinnlig sjuksköterska">
+                <img src="svg-files/sjuksköterska_kvinna.svg" class="picture_nurse-two" alt="En illustration på en kvinnlig sjuksköterska">
+              </div>
+            <div class="card-footer border-0">
               <a href="https://towardsdatascience.com/data-visualization-101-how-to-choose-a-chart-type-9b8830e558d6#5804"
                 hreflang="en" rel="external noopener noreferrer" target="_blank" class="link-secondary float-end"
                 title="Källa">Läs mer</a>
@@ -58,74 +64,7 @@
             </div>
           </section>
         </div>
-        <!-- SCATTER CHART -->
-        <div class="col">
-          <section class="card h-100" aria-labelledby="cardTitleThree">
-            <header class="card-header bg-white border-0">
-              <h4 class="card-title text-center text-uppercase" id="cardTitleThree">Scatter Chart</h4>
-              <p class="card-subtitle text-center">Card subtitle</p>
-            </header>
-            <div class="card-body d-flex justify-content-center flex-wrap">
-              <canvas id="scatter" height="400" width="400" aria-label="Scatter Plot" role="img"></canvas>
-            </div>
-            <div class="card-footer bg-white border-0">
-              <a href="https://towardsdatascience.com/data-visualization-101-how-to-choose-a-chart-type-9b8830e558d6#5804"
-                hreflang="en" rel="external noopener noreferrer" target="_blank" class="link-secondary float-end"
-                title="Källa">Läs mer</a>
-            </div>
-          </section>
-        </div>
-        <!-- LINE CHART -->
-        <div class="col">
-          <section class="card h-100" aria-labelledby="cardTitleFour">
-            <header class="card-header bg-white border-0">
-              <h4 class="card-title text-center text-uppercase" id="cardTitleFour">Line Chart</h4>
-              <p class="card-subtitle text-center">Card subtitle</p>
-            </header>
-            <div class="card-body d-flex justify-content-center flex-wrap">
-              <canvas id="line" height="400" width="400" aria-label="Line Plot" role="img"></canvas>
-            </div>
-            <div class="card-footer bg-white border-0">
-              <a href="https://towardsdatascience.com/data-visualization-101-how-to-choose-a-chart-type-9b8830e558d6#5804"
-                hreflang="en" rel="external noopener noreferrer" target="_blank" class="link-secondary float-end"
-                title="Källa">Läs mer</a>
-            </div>
-          </section>
-        </div>
-        <!-- PIE CHART -->
-        <div class="col">
-          <section class="card h-100" aria-labelledby="cardTitleFive">
-            <header class="card-header bg-white border-0">
-              <h4 class="card-title text-center text-uppercase" id="cardTitleFive">Pie Chart</h4>
-              <p class="card-subtitle text-center">Card subtitle</p>
-            </header>
-            <div class="card-body d-flex justify-content-center flex-wrap">
-              <canvas id="pie" height="400" width="400" aria-label="Pie Plot" role="img"></canvas>
-            </div>
-            <div class="card-footer bg-white border-0">
-              <a href="https://towardsdatascience.com/data-visualization-101-how-to-choose-a-chart-type-9b8830e558d6#5804"
-                hreflang="en" rel="external noopener noreferrer" target="_blank" class="link-secondary float-end"
-                title="Källa">Läs mer</a>
-            </div>
-          </section>
-        </div>
-        <!-- MIXED CHART -->
-        <div class="col">
-          <section class="card h-100" aria-labelledby="cardTitleSix">
-            <header class="card-header bg-white border-0">
-              <h4 class="card-title text-center text-uppercase" id="cardTitleSix">Mixed Chart</h4>
-              <p class="card-subtitle text-center">Card subtitle</p>
-            </header>
-            <div class="card-body d-flex justify-content-center flex-wrap">
-              <canvas id="mixed" height="400" width="400" aria-label="Mixed Plot" role="img"></canvas>
-            </div>
-            <div class="card-footer bg-white border-0">
-              <a href="https://towardsdatascience.com/data-visualization-101-how-to-choose-a-chart-type-9b8830e558d6#5804"
-                hreflang="en" rel="external noopener noreferrer" target="_blank" class="link-secondary float-end"
-                title="Källa">Läs mer</a>
-            </div>
-          </section>
-        </div>
+
       </div>
     </div>
   </main>

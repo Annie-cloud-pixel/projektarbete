@@ -1,0 +1,24 @@
+p.left {
+    float:left;
+    margin-left:30%;
+    font-size: 1.5rem;
+  }
+
+p.right {
+    float:right;
+    margin-right:30%;
+    font-size: 1.5rem;
+  } 
+
+.image {
+    max-width: 20rem;
+    float: none;
+}
+
+.picture_nurse-one {
+    height: auto;  
+}
+
+.picture_nurse-two {
+    height: auto;  
+}
