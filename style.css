@@ -10,15 +10,49 @@ p.right {
     font-size: 1.5rem;
   } 
 
+
 .image {
-    max-width: 20rem;
-    float: none;
+    width: 50rem;
+    height: 50rem;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    
 }
 
 .picture_nurse-one {
-    height: auto;  
+    float: left;
+    height: auto; 
+    max-width: 10rem;
+    margin-left: 20%;
 }
 
 .picture_nurse-two {
-    height: auto;  
+    float: right;
+    height: auto;
+    max-width: 10rem;
+    margin-right:20%;
+    
+}
+
+.linje {
+    float: none;
+    height: auto;
+    max-width: 20rem;
+    margin-left:25%;
+    
+    
+}
+
+.kvinnor-sjuksköterska {
+    max-width: 10rem;
+    margin-top: 2%;
+    margin-left:50%;
+    font-size: 1.5rem;
+}
+
+.kvinnor-sjuksköterska-procent {
+    max-width: 10rem;
+    margin-left:50%;
+    font-size: 2rem;
 }
