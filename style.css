@@ -1,22 +1,65 @@
 p.left {
     float:left;
-    margin-left:30%;
+    margin-left: 20%;
     font-size: 1.5rem;
   }
 
 p.right {
     float:right;
-    margin-right:30%;
+    margin-right: 20%;
     font-size: 1.5rem;
   } 
 
 
-.image {
-    width: 50rem;
-    height: 50rem;
+.info {
     margin: 0 auto;
     float: left;
     width: 100%;
+    
+}
+
+.card {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #EBF3FA;
+}
+
+.picture_nurse-1 {
+    float: left;
+    height: auto; 
+    max-width: 15rem;
+    margin-left: 2rem;
+}
+
+.info-text {
+    float: left;
+    width: 20rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    
+}
+
+.picture_nurse-2 {
+    float: right;
+    height: auto;
+    width: 17.4rem;
+    margin-right: 2rem;
+
+    
+}
+
+.picture_nurse_male-1 {
+    float: left;
+    height: auto; 
+    max-width: 10rem;
+    margin-left: 5rem;
+}
+
+.picture_nurse_male-2 {
+    float: right;
+    height: auto;
+    width: 11.66rem;
+    margin-right: 5rem;
     
 }
 
@@ -39,9 +82,20 @@ p.right {
     float: none;
     height: auto;
     max-width: 20rem;
-    margin-left:25%;
     
-    
+}
+
+.kvinnor-sjuksköterska-2 {
+    text-align: center;
+    max-width: auto;
+    margin-top: 10%;
+    font-size: 2rem;
+}
+
+.kvinnor-sjuksköterska-procent-2 {
+    text-align: center;
+    max-width: auto;
+    font-size: 2.5rem;
 }
 
 .kvinnor-sjuksköterska {
