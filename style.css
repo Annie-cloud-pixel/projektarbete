@@ -1,14 +1,5 @@
-p.left {
-    float:left;
-    margin-left: 20%;
-    font-size: 1.5rem;
-  }
+@charset "UTF-8";
 
-p.right {
-    float:right;
-    margin-right: 20%;
-    font-size: 1.5rem;
-  } 
 
 
 .info {
@@ -18,8 +9,175 @@ p.right {
     
 }
 
+
+
+@media screen and (min-width: 360px) {
+
+
+    p.left {
+        float:left;
+        font-size: 1.2rem;
+        padding-left: 5%;
+        padding-bottom: 0%;
+      }
+    
+    p.right {
+        float:right;
+        font-size: 1.2rem;
+        padding-right: 5%;
+      } 
+
+    .ssk {
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 1.5rem;
+        background-color: #EBF3FA;
+    }
+    
+    .dr {
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 5rem;
+        background-color: #F2EFEC;
+    }
+    
+    .picture_nurse-1 {
+        float: left;
+        height: auto; 
+        max-width: 5rem;
+    }
+    
+    .info-text {
+        float: left;
+        width: 5rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        
+    }
+    
+    
+    .picture_nurse-2 {
+        float: right;
+        height: auto;
+        max-width: 5rem;
+    
+        
+    }
+    
+
+    .linje {
+        visibility: hidden;
+        height: 0;
+    }
+    
+    .kvinnor-sjuksköterska-1 {
+        text-align: center;
+        max-width: auto;
+        font-size: 1rem;
+        margin-bottom: 0%;
+    }
+    
+    .kvinnor-sjuksköterska-procent-1 {
+        text-align: center;
+        max-width: auto;
+        font-size: 1.5rem;
+        margin-bottom: 0%;
+    }
+    
+
+    .kvinnor-sjuksköterska {
+        max-width: 10rem;
+        margin-top: 2%;
+        margin-left:50%;
+        font-size: 1.5rem;
+    }
+    
+    .kvinnor-sjuksköterska-procent {
+        max-width: 10rem;
+        margin-left:50%;
+        font-size: 2rem;
+    }
+
+   
+    .picture_nurse_male-1 {
+        float: left;
+        height: auto; 
+        max-width: 5rem;
+    }
+    
+    .info-text-2 {
+        float: none;
+        position: absolute;
+        width: 5rem;
+        margin-left: 6rem;
+        margin-top: 1rem;
+        
+    }
+    
+    
+    .picture_nurse_male-2 {
+        float: right;
+        height: auto;
+        max-width: 5rem;
+        
+    }
+
+    .linje-2 {
+        visibility: hidden;
+        height: 0;
+    }
+    
+    .män-sjuksköterska-1 {
+        text-align: center;
+        max-width: auto;
+        font-size: 1rem;
+        margin-bottom: 0%;
+    }
+    
+    .män-sjuksköterska-procent-1 {
+        text-align: center;
+        max-width: auto;
+        font-size: 1.5rem;
+        margin-bottom: 0%;
+    }
+    
+
+    .män-sjuksköterska {
+        max-width: 10rem;
+        margin-top: 2%;
+        margin-left:50%;
+        font-size: 1.5rem;
+    }
+    
+    .män-sjuksköterska-procent {
+        max-width: 10rem;
+        margin-left:50%;
+        font-size: 2rem;
+    }
+    
+    .footer {
+        margin: 0 auto;
+        float: left;
+    }
+    
+    }
+
+@media screen and (min-width: 1280px) {
+
+p.left {
+    float:left;
+    margin-left: 20%;
+    font-size: 1.5rem;
+    }
+    
+p.right {
+    float:right;
+    margin-right: 20%;
+    font-size: 1.5rem;
+     } 
+
 .ssk {
-    width: 80%;
+    max-width: 80%;
     margin: 0 auto;
     border-radius: 5rem;
     background-color: #EBF3FA;
@@ -32,11 +190,10 @@ p.right {
     background-color: #F2EFEC;
 }
 
-
 .picture_nurse-1 {
     float: left;
     height: auto; 
-    max-width: 15rem;
+    max-width: 10rem;
     margin-left: 2rem;
 }
 
@@ -52,8 +209,7 @@ p.right {
 .picture_nurse-2 {
     float: right;
     height: auto;
-    width: 17.2rem;
-    margin-right: 2rem;
+    max-width: 12rem;
 
     
 }
@@ -70,8 +226,8 @@ p.right {
 .picture_nurse_male-1 {
     float: left;
     height: auto; 
-    max-width: 8rem;
-    margin-left: 9rem;
+    max-width: 10rem;
+    margin-left: 6rem;
 }
 
 .info-text-2 {
@@ -87,8 +243,8 @@ p.right {
 .picture_nurse_male-2 {
     float: none;
     height: auto;
-    width: 9.8rem;
-    margin-right: rem;
+    width: 10rem;
+    margin-right: 3rem;
     
 }
 
@@ -160,7 +316,6 @@ p.right {
 }
 
 
-
 .picture_dr_male-1 {
     float: left;
     height: auto; 
@@ -173,6 +328,8 @@ p.right {
     float: none;
     height: auto;
     width: 9.8rem;
-    margin-right: rem;
+    margin-right: 3rem;
     
+}
+
 }
