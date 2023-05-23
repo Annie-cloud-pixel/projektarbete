@@ -1,11 +1,6 @@
 @charset "UTF-8";
 
 
-.title-header {
-    font-size: 4rem;
-    text-align: center;
-}
-
 .info {
     margin: 0 auto;
     float: left;
@@ -16,7 +11,10 @@
 
 
 @media screen and (min-width: 360px) {
-
+    .title-header {
+        font-size: 3rem;
+        text-align: center;
+    }
 
     p.left {
         float:left;
@@ -53,7 +51,7 @@
     
     .info-text {
         float: left;
-        width: 5rem;
+        width: auto;
         margin-left: 1rem;
         margin-top: 1rem;
         
@@ -112,7 +110,7 @@
     .info-text-2 {
         float: none;
         position: absolute;
-        width: 5rem;
+        width: auto;
         margin-left: 6rem;
         margin-top: 1rem;
         
@@ -167,6 +165,17 @@
     }
 
 @media screen and (min-width: 1280px) {
+
+.card-title {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.title-header {
+    font-size: 4rem;
+    text-align: center;
+    }
 
 p.left {
     float:left;
@@ -241,7 +250,7 @@ p.right {
     position: absolute;
     width: 20rem;
     margin-left: 32%;
-    margin-top: 7rem;
+    margin-top: 8rem;
     z-index: 1;
     
 }
@@ -259,7 +268,7 @@ p.right {
     float: left;
     height: auto;
     visibility: visible;
-    max-width: 20rem;
+    max-width: 21rem;
     margin-left: 0.5rem;
     
 }
@@ -282,7 +291,7 @@ p.right {
     float: none;
     height: auto;
     visibility: visible;
-    max-width: 30rem;
+    max-width: 31rem;
     margin-top: 2rem;
     
 }

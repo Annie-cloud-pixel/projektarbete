@@ -1,0 +1,104 @@
+
+.background {
+    background-color: #f6f6f6;
+}
+
+
+.info {
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    
+}
+
+
+.title-header {
+    font-size: 4rem;
+    text-align: center;
+    }
+
+.card-title {
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.ssk {
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 5rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0, 0.5);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+
+}
+
+.info-text {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.picture-nurse-1 {
+    position: relative;
+    float: none;
+}
+
+.antal-1 {
+    position: absolute;
+    float: right;
+    z-index: 1;
+    margin-top: 24%;
+    margin-left: 40%;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.antal-2 {
+    position: absolute;
+    float: right;
+    z-index: 1;
+    margin-top: 5%;
+    margin-left: 73%;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.procent-1 {
+    position: absolute;
+    float: right;
+    z-index: 1;
+    margin-top: 35%;
+    margin-left: 65%;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ar-2012 {
+    float:left;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 40%;
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    }
+
+.ar-2019 {
+    position: absolute;
+    float: none;
+    z-index: 1;
+    margin-top: 0%;
+    margin-left: 75%;
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+     } 
+
+hr.dashed {
+    margin-top: 10%;
+    margin-bottom: 8%;
+    border-top: 3px dashed #bbb;
+}
+

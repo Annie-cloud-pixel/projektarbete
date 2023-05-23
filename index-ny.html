@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="sv-SE">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Första inlämningsuppgiften med Chart.js med Bootstrap">
+  <meta name="author" content="Malin Högdahl Buhl">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style-ny.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Projektarbete av Malin Högdahl Buhl och Annie Renhorn</title>
+</head>
+
+<body>
+  <header class="container py-5">
+    <div class="row">
+        <img src="svg-files/grupp_läkare_sjuksköterskor.svg" class="picture_header" alt="En grupp med sjuksköterskor och läkare står framför ett sjukhus med en ambulans på sidan">
+        <h1 class="title-header display-1">Sjuksköterska vs. Läkare - då och nu</h1>
+        <p class="lead text-center"><em class="pl-10">Analys av könsrelaterade utmaningar för sjuksköterskor och läkare inom examinering och sysselsättning under 2012-2019</em></p>
+    </div>
+  </header>
+  <main class="background py-5 min-vh-100">
+       <!-- SSK UTVECKLING -->
+        <div class="col">
+          <section class="ssk card h-100" aria-labelledby="cardTitleOne">
+            <header class="header">
+              <h4 class="card-title text-center" id="cardTitleOne">Hur många fick en sjuksköterskelegitimation?</h4>
+            </header>
+              <div class="ssk-info">
+              <p class="info-text">För att få arbeta som sjuksköterska i Sverige idag krävs det att man har en legitimation. Sjuksköterskelegitimationen utfärdas efter en treåring högskoleutbildning. Statistiken avser hela Sverige mellan åren 2012–2019. 
+                <br><br>
+                Antalet utfärdade legitimationer för både kvinnor och män har ökat, vi ser att antalet män som får legitimation har ökat med hela 22,2% motsvarande 16,6% för kvinnor. 
+                Skillnaderna mellan män och kvinnor är fortsatt högt och vi kan dra slutsatsen att det 2019 är fem gånger så många kvinnor som arbetar som sjuksköterska vilket gör att det fortfarande kan ses som ett kvinnodominerat yrke. </p>
+              <p class="antal-1">3346 st</p>
+              <p class="antal-2">3868 st</p>
+              <p class="procent-1">+ 16,6%</p>
+              <img src="svg-files/sjukskoterska_kvinna_pil.svg" class="picture_nurse-1" alt="En illustration på en kvinnlig sjuksköterska">
+              <p class="ar-2012">2012</p>
+              <p class="ar-2019">2019</p>
+            </div>
+            <hr class="dashed">
+            <div class="ssk-info">
+              <p class="antal-1">482 st</p>
+              <p class="antal-2">589 st</p>
+              <p class="procent-1">+ 22,2%</p>
+              <img src="svg-files/sjukskoterska_man_pil.svg" class="picture_nurse-1" alt="En illustration på en kvinnlig sjuksköterska">
+              <p class="ar-2012">2012</p>
+              <p class="ar-2019">2019</p>
+            </div>
+          </section>
+          <section class="ssk card h-100" aria-labelledby="cardTitleTwo">
+            <header class="header">
+              <h4 class="card-title text-center" id="cardTitleOne">Hur många fick en läkarlegitimation?</h4>
+            </header>
+              <div class="ssk-info">
+              <p class="info-text">Könsskillnaden i läkaryrket är inte lika stor men även här är kvinnor överrepresenterade. För att erhålla en läkarlegitimation i Sverige krävs det utbildning på universitet på minst fem år och därefter en ettåring allmäntjänstgöring (AT-tjänst).
+                <br><br> 
+                Det har skett en stor ökning av utfärdade legitimationer för män mellan 2012 och 2019 vilket gör att det endast var 15,3% fler kvinnor som fått en utfärdad läkarlegitimation 2019. 
+                Anledningen till ökningen kan ha flera orsaker men några av anledningarna kan vara att lönerna har stigit och att synen på ett kvinnodominerat yrke har ändrats i samhället i stort.
+              <p class="antal-1">562 st</p>
+              <p class="antal-2">649 st</p>
+              <p class="procent-1">+ 15,5%</p>
+              <img src="svg-files/lakare_kvinna_pil.svg" class="picture_nurse-1" alt="En illustration på en kvinnlig sjuksköterska">
+              <p class="ar-2012">2012</p>
+              <p class="ar-2019">2019</p>
+            </div>
+            <hr class="dashed">
+            <div class="ssk-info">
+              <p class="antal-1">384 st</p>
+              <p class="antal-2">563 st</p>
+              <p class="procent-1">+ 46,6%</p>
+              <img src="svg-files/lakare_man_pil.svg" class="picture_nurse-1" alt="En illustration på en kvinnlig sjuksköterska">
+              <p class="ar-2012">2012</p>
+              <p class="ar-2019">2019</p>
+            </div>
+          </section>
+      </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
+  <script defer src="./js/functions.js"></script>
+  <script defer src="./js/charts.js"></script>
+</body>
+
+</html>
+
