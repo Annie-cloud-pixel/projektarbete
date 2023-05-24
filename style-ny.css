@@ -3,6 +3,28 @@
     background-color: #f6f6f6;
 }
 
+/* Vit divider */
+
+.custom-shape-divider-top-1684869091 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1684869091 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 68px;
+    margin-bottom: 5%;
+}
+
+.custom-shape-divider-top-1684869091 .shape-fill {
+    fill: #FFFFFF;
+}
+
 
 .info {
     margin: 0 auto;
@@ -16,6 +38,185 @@
     font-size: 4rem;
     text-align: center;
     }
+
+/* Blå divider */
+
+.group-divider {
+    position: absolute;
+    float: none;
+    z-index: 0;
+    width: 80rem;
+    height: auto;
+    opacity: 0.3;
+}
+
+
+.custom-shape-divider-bottom-1684867678 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1684867678 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1684867678 .shape-fill {
+    fill: #0099cc;
+}
+
+.divider {
+    background-color: #0099cc;
+    height: 70rem;
+}
+
+.custom-shape-divider-top-1684868703 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1684868703 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 201px;
+}
+
+.custom-shape-divider-top-1684868703 .shape-fill {
+    fill: #f6f6f6;
+}
+
+
+
+/* Orange divider */
+
+.group-divider-3 {
+    position: absolute;
+    float: none;
+    z-index: 0;
+    width: 80rem;
+    height: auto;
+    margin-top: 140%;
+}
+
+.custom-shape-divider-bottom-1684870963 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1684870963 svg {
+    position: relative;
+    display: block;
+    width: calc(109% + 1.3px);
+    height: 145px;
+}
+
+.custom-shape-divider-bottom-1684870963 .shape-fill {
+    fill: #642EA8;
+}
+
+.divider-3 {
+    background-color:#642EA8;
+    height: 27rem;
+
+}
+
+.custom-shape-divider-top-1684871309 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1684871309 svg {
+    position: relative;
+    display: block;
+    width: calc(109% + 1.3px);
+    height: 145px;
+}
+
+.custom-shape-divider-top-1684871309 .shape-fill {
+    fill: #642EA8;
+}
+
+/* Grön divider */
+
+.group-divider-2 {
+    position: absolute;
+    float: none;
+    z-index: 0;
+    width: 80rem;
+    height: auto;
+    margin-top: 155rem;
+    opacity: 0.3;
+}
+
+
+.custom-shape-divider-bottom-1684867679 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1684867679 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1684867679 .shape-fill {
+    fill: #4bb492;
+}
+
+.divider-2 {
+    background-color: #4bb492;
+    height: 70rem;
+}
+
+.custom-shape-divider-top-1684868704 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1684868704 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 201px;
+}
+
+.custom-shape-divider-top-1684868704 .shape-fill {
+    fill: #f6f6f6;
+}
+
+
+/* Cards */
 
 .card-title {
     font-size: 2rem;
@@ -31,9 +232,10 @@
     background-color: #ffffff;
     box-shadow: 0 0 15px rgba(0,0,0, 0.5);
     padding-left: 5%;
+    margin-top: 15%;
     padding-right: 5%;
     padding-bottom: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 80%;
 
 }
 
@@ -101,4 +303,7 @@ hr.dashed {
     margin-bottom: 8%;
     border-top: 3px dashed #bbb;
 }
+
+/* Diagram */
+
 
