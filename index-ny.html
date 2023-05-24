@@ -45,84 +45,6 @@
         </svg>
       </div>
   </div>
-    <div class="group-divider-3">
-    <div class="custom-shape-divider-bottom-1684870963">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-      </svg>
-  </div>
-  <div class="divider-3">
-    <!-- DIAGRAM -->
-    <div class="diagram">
-      <div class="bar-chart">
-      <script src="https://code.highcharts.com/highcharts.js"></script>
-      <script src="https://code.highcharts.com/modules/exporting.js"></script>
-      <script src="https://code.highcharts.com/modules/export-data.js"></script>
-      <script src="https://code.highcharts.com/modules/accessibility.js"></script>
-      <figure class="highcharts-figure">
-          <div id="container"></div>
-      </figure>  
-      <script type="text/javascript">
-        Highcharts.chart('container', {
-chart: {
-  type: 'column'
-},
-title: {
-  text: 'Antalet nylegitimerade sjuksköterskor 2012-2019'
-},
-xAxis: {
-  categories: [
-      '2012',
-      '2013',
-      '2014',
-      '2015',
-      '2016',
-      '2017',
-      '2018',
-      '2019',
-  ],
-  crosshair: true
-},
-yAxis: {
-  min: 0,
-  title: {
-      text: 'Antal'
-  }
-},
-tooltip: {
-  headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-  pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-      '<td style="padding:0"><b>{point.y:f} st</b></td></tr>',
-  footerFormat: '</table>',
-  shared: true,
-  useHTML: true
-},
-plotOptions: {
-  column: {
-      pointPadding: 0.2,
-      borderWidth: 0
-  }
-},
-series: [{
-  name: 'Män',
-  data: [482, 557, 519, 510, 546, 546, 611, 589]
-
-}, {
-  name: 'Kvinnor',
-  data: [3346, 3307, 3381, 3387, 3654, 3685, 3719, 3868]
-
-}]
-});
-      </script>  
-    </div>        
-    </div>
-  </div>
-  <div class="custom-shape-divider-top-1684871309">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-    </svg>
-</div>
-  </div>
     <div class="group-divider-2">
       <div class="custom-shape-divider-bottom-1684867679">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -166,8 +88,138 @@ series: [{
               <p class="ar-2019">2019</p>
             </div>
           </section>
-
-          
+              <!-- DIAGRAM -->
+              <section class="ssk card h-100" aria-labelledby="cardTitleOne">
+                <header class="header">
+                  <h4 class="card-title text-center" id="cardTitleOne">En jämnare kurva för sjuksköterskor?</h4>
+                </header>
+                  <div class="ssk-info">
+                  <p class="info-text">Nedan presenteras två diagram, det översta visar antalet nylegitimerade sjuksköterskor mellan 2012 – 2019 och under presenteras ett diagram med antalet nylegitimerade läkare 2012 – 2019. De båda diagrammen ger en tydlig bild av hur fördelningen har sett ut under åren och när det skett förändringar. 
+                    <br><br>Från 2016 och framåt ser vi en ökning av nylegitimerade läkare, både på en manliga och den kvinnliga sidan. Vi tror att en bidragande orsak till det kan vara att den första gruppen studenter tog examen från den nya läkarutbildningen vid Örebro universitet och att det därefter skedde en ökning av läkare som fick legitimation. 
+                    <br><br>Statistiken visar en större variation i antalet läkare som får en legitimation än sjuksköterskor. En anledning till det kan vara att fler klarar sjuksköterskeutbildningen och att det är fler som inte klarar sig igenom läkarutbildningen då den är längre och tuffare.
+                    <br>Källa: <a href>https://www.oru.se/nyheter/nyhetsarkiv/nyhetsarkiv-2021/lakarprogrammet-firar-tio-ar--over-500-nya-lakare-har-examinerats/</a>
+                    <div class="diagram">
+                      <div class="bar-chart">
+                      <script src="https://code.highcharts.com/highcharts.js"></script>
+                      <script src="https://code.highcharts.com/modules/exporting.js"></script>
+                      <script src="https://code.highcharts.com/modules/export-data.js"></script>
+                      <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+                      <figure class="highcharts-figure">
+                          <div id="container">
+                      </figure>  
+                      <script type="text/javascript">
+                        Highcharts.chart('container', {
+                chart: {
+                  type: 'column'
+                },
+                title: {
+                  text: 'Antalet nylegitimerade sjuksköterskor 2012-2019'
+                },
+                xAxis: {
+                  categories: [
+                      '2012',
+                      '2013',
+                      '2014',
+                      '2015',
+                      '2016',
+                      '2017',
+                      '2018',
+                      '2019',
+                  ],
+                  crosshair: true
+                },
+                yAxis: {
+                  min: 0,
+                  title: {
+                      text: 'Antal'
+                  }
+                },
+                tooltip: {
+                  headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                  pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                      '<td style="padding:0"><b>{point.y:f} st</b></td></tr>',
+                  footerFormat: '</table>',
+                  shared: true,
+                  useHTML: true
+                },
+                plotOptions: {
+                  column: {
+                      pointPadding: 0.2,
+                      borderWidth: 0
+                  }
+                },
+                series: [{
+                  name: 'Män',
+                  data: [482, 557, 519, 510, 546, 546, 611, 589]
+                
+                }, {
+                  name: 'Kvinnor',
+                  data: [3346, 3307, 3381, 3387, 3654, 3685, 3719, 3868]
+                
+                }]
+                
+                });
+                </script>  
+                <!-- DIAGRAM 2 -->
+                <figure class="highcharts-figure">
+                  <div id="container-2">
+              </figure>  
+              <script type="text/javascript">
+                Highcharts.chart('container-2', {
+        chart: {
+          type: 'column'
+        },
+        title: {
+          text: 'Antalet nylegitimerade läkare 2012-2019'
+        },
+        xAxis: {
+          categories: [
+              '2012',
+              '2013',
+              '2014',
+              '2015',
+              '2016',
+              '2017',
+              '2018',
+              '2019',
+          ],
+          crosshair: true
+        },
+        yAxis: {
+          min: 0,
+          title: {
+              text: 'Antal'
+          }
+        },
+        tooltip: {
+          headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+          pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+              '<td style="padding:0"><b>{point.y:f} st</b></td></tr>',
+          footerFormat: '</table>',
+          shared: true,
+          useHTML: true
+        },
+        plotOptions: {
+          column: {
+              pointPadding: 0.2,
+              borderWidth: 0
+          }
+        },
+        series: [{
+          name: 'Män',
+          data: [384, 453, 449, 504, 465, 500, 536, 536]
+        
+        }, {
+          name: 'Kvinnor',
+          data: [562, 610, 552, 568, 543, 654, 656, 649]
+        
+        }]
+        
+        });
+              </script>  
+                </div>
+                </div>
+              </section>
           <!-- DR UTVECKLING -->
           <section class="ssk card h-100" aria-labelledby="cardTitleTwo">
             <header class="header">

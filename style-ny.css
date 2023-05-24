@@ -98,64 +98,6 @@
 }
 
 
-
-/* Orange divider */
-
-.group-divider-3 {
-    position: absolute;
-    float: none;
-    z-index: 0;
-    width: 80rem;
-    height: auto;
-    margin-top: 140%;
-}
-
-.custom-shape-divider-bottom-1684870963 {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1684870963 svg {
-    position: relative;
-    display: block;
-    width: calc(109% + 1.3px);
-    height: 145px;
-}
-
-.custom-shape-divider-bottom-1684870963 .shape-fill {
-    fill: #642EA8;
-}
-
-.divider-3 {
-    background-color:#642EA8;
-    height: 27rem;
-
-}
-
-.custom-shape-divider-top-1684871309 {
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-top-1684871309 svg {
-    position: relative;
-    display: block;
-    width: calc(109% + 1.3px);
-    height: 145px;
-}
-
-.custom-shape-divider-top-1684871309 .shape-fill {
-    fill: #642EA8;
-}
-
 /* Grön divider */
 
 .group-divider-2 {
@@ -235,7 +177,7 @@
     margin-top: 15%;
     padding-right: 5%;
     padding-bottom: 5%;
-    margin-bottom: 80%;
+    margin-bottom: 5%;
 
 }
 
@@ -305,5 +247,4 @@ hr.dashed {
 }
 
 /* Diagram */
-
 
