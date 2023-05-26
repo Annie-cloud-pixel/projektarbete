@@ -1,3 +1,13 @@
+@media screen and (min-width: 360px) {
+    #container {
+        height: auto;
+        max-width: auto;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+
 .highcharts-figure,
 .highcharts-data-table table {
     min-width: 310px;
@@ -44,4 +54,5 @@
 
 .highcharts-data-table tr:hover {
     background: #f1f7ff;
+}
 }

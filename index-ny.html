@@ -70,209 +70,202 @@
               <h4 class="card-title text-center" id="cardTitleOne">Hur många fick en sjuksköterskelegitimation?</h4>
             </header>
               <div class="ssk-info">
-              <p class="info-text">För att få arbeta som sjuksköterska i Sverige idag krävs det att man har en legitimation. Sjuksköterskelegitimationen utfärdas efter en treåring högskoleutbildning. Statistiken avser hela Sverige mellan åren 2012–2019. 
+              <p class="info-text lead">För att få arbeta som sjuksköterska i Sverige idag krävs det att man har en legitimation. Sjuksköterskelegitimationen utfärdas efter en treåring högskoleutbildning. Statistiken avser hela Sverige mellan åren 2012–2019. 
                 <br><br>
                 Antalet utfärdade legitimationer för både kvinnor och män har ökat, vi ser att antalet män som får legitimation har ökat med hela 22,2% motsvarande 16,6% för kvinnor. 
                 Skillnaderna mellan män och kvinnor är fortsatt högt och vi kan dra slutsatsen att det 2019 är fem gånger så många kvinnor som arbetar som sjuksköterska vilket gör att det fortfarande kan ses som ett kvinnodominerat yrke. </p>
-              <p class="antal-1">3346 st</p>
-              <p class="antal-2">3868 st</p>
               <p class="procent-1">+ 16,6%</p>
               <img src="svg-files/sjukskoterska_kvinna_pil.svg" class="picture_nurse-1" alt="En illustration på en kvinnlig sjuksköterska">
-              <p class="ar-2012">2012</p>
-              <p class="ar-2019">2019</p>
+              <p class="ar-2012"><b>2012:</b> 3346 st</p>
+              <p class="ar-2019"><b>2019:</b> 3868 st</p>
             </div>
             <hr class="dashed">
             <div class="ssk-info">
-              <p class="antal-1">482 st</p>
-              <p class="antal-2">589 st</p>
               <p class="procent-1">+ 22,2%</p>
               <img src="svg-files/sjukskoterska_man_pil.svg" class="picture_nurse-1" alt="En illustration på en kvinnlig sjuksköterska">
-              <p class="ar-2012">2012</p>
-              <p class="ar-2019">2019</p>
+              <p class="ar-2012"><b>2012:</b> 482 st</p>
+              <p class="ar-2019"><b>2019:</b> 589 st</p>
             </div>
           </section>
-              <!-- DIAGRAM -->
-              <section class="ssk card h-100" aria-labelledby="cardTitleOne">
-                <header class="header">
-                  <h4 class="card-title text-center" id="cardTitleOne">En jämnare kurva för sjuksköterskor?</h4>
-                </header>
-                  <div class="ssk-info">
-                  <p class="info-text">Nedan presenteras två diagram, det översta visar antalet nylegitimerade sjuksköterskor mellan 2012 – 2019 och under presenteras ett diagram med antalet nylegitimerade läkare 2012 – 2019. De båda diagrammen ger en tydlig bild av hur fördelningen har sett ut under åren och när det skett förändringar. 
-                    <br><br>Från 2016 och framåt ser vi en ökning av nylegitimerade läkare, både på en manliga och den kvinnliga sidan. Vi tror att en bidragande orsak till det kan vara att den första gruppen studenter tog examen från den nya läkarutbildningen vid Örebro universitet och att det därefter skedde en ökning av läkare som fick legitimation. 
-                    <br><br>Statistiken visar en större variation i antalet läkare som får en legitimation än sjuksköterskor. En anledning till det kan vara att fler klarar sjuksköterskeutbildningen och att det är fler som inte klarar sig igenom läkarutbildningen då den är längre och tuffare.
-                    <br>Källa: <a href>https://www.oru.se/nyheter/nyhetsarkiv/nyhetsarkiv-2021/lakarprogrammet-firar-tio-ar--over-500-nya-lakare-har-examinerats/</a>
-                    <div class="diagram">
-                      <div class="bar-chart">
-                      <script src="https://code.highcharts.com/highcharts.js"></script>
-                      <script src="https://code.highcharts.com/modules/exporting.js"></script>
-                      <script src="https://code.highcharts.com/modules/export-data.js"></script>
-                      <script src="https://code.highcharts.com/modules/accessibility.js"></script>
-                      <figure class="highcharts-figure">
-                          <div id="container">
-                      </figure>  
-                      <script type="text/javascript">
-                        Highcharts.chart('container', {
-                chart: {
-                  type: 'column'
-                },
-                title: {
-                  text: 'Antalet nylegitimerade sjuksköterskor 2012-2019'
-                },
-                xAxis: {
-                  categories: [
-                      '2012',
-                      '2013',
-                      '2014',
-                      '2015',
-                      '2016',
-                      '2017',
-                      '2018',
-                      '2019',
-                  ],
-                  crosshair: true
-                },
-                yAxis: {
-                  min: 0,
-                  title: {
-                      text: 'Antal'
-                  }
-                },
-                tooltip: {
-                  headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-                  pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-                      '<td style="padding:0"><b>{point.y:f} st</b></td></tr>',
-                  footerFormat: '</table>',
-                  shared: true,
-                  useHTML: true
-                },
-                plotOptions: {
-                  column: {
-                      pointPadding: 0.2,
-                      borderWidth: 0
-                  }
-                },
-                series: [{
-                  name: 'Män',
-                  data: [482, 557, 519, 510, 546, 546, 611, 589]
-                
-                }, {
-                  name: 'Kvinnor',
-                  data: [3346, 3307, 3381, 3387, 3654, 3685, 3719, 3868]
-                
-                }]
-                
-                });
-                </script>  
-                <!-- DIAGRAM 2 -->
-                <figure class="highcharts-figure">
-                  <div id="container-2">
-              </figure>  
-              <script type="text/javascript">
-                Highcharts.chart('container-2', {
-        chart: {
-          type: 'column'
-        },
-        title: {
-          text: 'Antalet nylegitimerade läkare 2012-2019'
-        },
-        xAxis: {
-          categories: [
-              '2012',
-              '2013',
-              '2014',
-              '2015',
-              '2016',
-              '2017',
-              '2018',
-              '2019',
-          ],
-          crosshair: true
-        },
-        yAxis: {
-          min: 0,
-          title: {
-              text: 'Antal'
-          }
-        },
-        tooltip: {
-          headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-          pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-              '<td style="padding:0"><b>{point.y:f} st</b></td></tr>',
-          footerFormat: '</table>',
-          shared: true,
-          useHTML: true
-        },
-        plotOptions: {
-          column: {
-              pointPadding: 0.2,
-              borderWidth: 0
-          }
-        },
-        series: [{
-          name: 'Män',
-          data: [384, 453, 449, 504, 465, 500, 536, 536]
-        
-        }, {
-          name: 'Kvinnor',
-          data: [562, 610, 552, 568, 543, 654, 656, 649]
-        
-        }]
-        
-        });
-              </script>  
-                </div>
-                </div>
-              </section>
           <!-- DR UTVECKLING -->
           <section class="ssk card h-100" aria-labelledby="cardTitleTwo">
             <header class="header">
               <h4 class="card-title text-center" id="cardTitleOne">Hur många fick en läkarlegitimation?</h4>
             </header>
               <div class="ssk-info">
-              <p class="info-text">Könsskillnaden i läkaryrket är inte lika stor men även här är kvinnor överrepresenterade. För att erhålla en läkarlegitimation i Sverige krävs det utbildning på universitet på minst fem år och därefter en ettåring allmäntjänstgöring (AT-tjänst).
+              <p class="info-text lead">Könsskillnaden i läkaryrket är inte lika stor men även här är kvinnor överrepresenterade. För att erhålla en läkarlegitimation i Sverige krävs det utbildning på universitet på minst fem år och därefter en ettåring allmäntjänstgöring (AT-tjänst).
                 <br><br> 
                 Det har skett en stor ökning av utfärdade legitimationer för män mellan 2012 och 2019 vilket gör att det endast var 15,3% fler kvinnor som fått en utfärdad läkarlegitimation 2019. 
                 Anledningen till ökningen kan ha flera orsaker men några av anledningarna kan vara att lönerna har stigit och att synen på ett kvinnodominerat yrke har ändrats i samhället i stort.
-              <p class="antal-1">562 st</p>
-              <p class="antal-2">649 st</p>
+            
               <p class="procent-1">+ 15,5%</p>
               <img src="svg-files/lakare_kvinna_pil.svg" class="picture_nurse-1" alt="En illustration på en kvinnlig sjuksköterska">
-              <p class="ar-2012">2012</p>
-              <p class="ar-2019">2019</p>
+              <p class="ar-2012"><b>2012:</b> 562 st</p>
+              <p class="ar-2019"><b>2019:</b> 649 st</p>
             </div>
             <hr class="dashed">
             <div class="ssk-info">
-              <p class="antal-1">384 st</p>
-              <p class="antal-2">563 st</p>
-              <p class="procent-1">+ 46,6%</p>
+              <p class="procent-2">+ 46,6%</p>
               <img src="svg-files/lakare_man_pil.svg" class="picture_nurse-1" alt="En illustration på en kvinnlig sjuksköterska">
-              <p class="ar-2012">2012</p>
-              <p class="ar-2019">2019</p>
+              <p class="ar-2012"><b>2012:</b> 384 st</p>
+              <p class="ar-2019"><b>2019:</b> 563 st</p>
             </div>
           </section>
+            <!-- DIAGRAM -->
+            <section class="ssk card h-100" aria-labelledby="cardTitleOne">
+              <header class="header">
+                <h4 class="card-title text-center" id="cardTitleOne">En jämnare kurva för sjuksköterskor?</h4>
+              </header>
+                <div class="ssk-info">
+                <p class="info-text lead">Nedan presenteras två diagram, det översta visar antalet nylegitimerade sjuksköterskor mellan 2012 – 2019 och under presenteras ett diagram med antalet nylegitimerade läkare 2012 – 2019. De båda diagrammen ger en tydlig bild av hur fördelningen har sett ut under åren och när det skett förändringar. 
+                  <br><br>Från 2016 och framåt ser vi en ökning av nylegitimerade läkare, både på en manliga och den kvinnliga sidan. Vi tror att en bidragande orsak till det kan vara att den första gruppen studenter tog examen från den nya läkarutbildningen vid Örebro universitet och att det därefter skedde en ökning av läkare som fick legitimation. 
+                  <br><br>Statistiken visar en större variation i antalet läkare som får en legitimation än sjuksköterskor. En anledning till det kan vara att fler klarar sjuksköterskeutbildningen och att det är fler som inte klarar sig igenom läkarutbildningen då den är längre och tuffare.
+                  <br>Källa: <a href>https://www.oru.se/nyheter/nyhetsarkiv/nyhetsarkiv-2021/lakarprogrammet-firar-tio-ar--over-500-nya-lakare-har-examinerats/</a>
+                  <div class="diagram">
+                    <div class="bar-chart">
+                    <script src="https://code.highcharts.com/highcharts.js"></script>
+                    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+                    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+                    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+                    <figure class="highcharts-figure">
+                        <div id="container">
+                    </figure>  
+                    <script type="text/javascript">
+                      Highcharts.chart('container', {
+              chart: {
+                type: 'column'
+              },
+              title: {
+                text: 'Antalet nylegitimerade sjuksköterskor 2012-2019'
+              },
+              xAxis: {
+                categories: [
+                    '2012',
+                    '2013',
+                    '2014',
+                    '2015',
+                    '2016',
+                    '2017',
+                    '2018',
+                    '2019',
+                ],
+                crosshair: true
+              },
+              yAxis: {
+                min: 0,
+                title: {
+                    text: 'Antal'
+                }
+              },
+              tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                    '<td style="padding:0"><b>{point.y:f} st</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+              },
+              plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+              },
+              series: [{
+                name: 'Män',
+                data: [482, 557, 519, 510, 546, 546, 611, 589]
+              
+              }, {
+                name: 'Kvinnor',
+                data: [3346, 3307, 3381, 3387, 3654, 3685, 3719, 3868]
+              
+              }]
+              
+              });
+              </script>  
+              <!-- DIAGRAM 2 -->
+              <figure class="highcharts-figure">
+                <div id="container-2">
+            </figure>  
+            <script type="text/javascript">
+              Highcharts.chart('container-2', {
+      chart: {
+        type: 'column'
+      },
+      title: {
+        text: 'Antalet nylegitimerade läkare 2012-2019'
+      },
+      xAxis: {
+        categories: [
+            '2012',
+            '2013',
+            '2014',
+            '2015',
+            '2016',
+            '2017',
+            '2018',
+            '2019',
+        ],
+        crosshair: true
+      },
+      yAxis: {
+        min: 0,
+        title: {
+            text: 'Antal'
+        }
+      },
+      tooltip: {
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y:f} st</b></td></tr>',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+      },
+      plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+      },
+      series: [{
+        name: 'Män',
+        data: [384, 453, 449, 504, 465, 500, 536, 536]
+      
+      }, {
+        name: 'Kvinnor',
+        data: [562, 610, 552, 568, 543, 654, 656, 649]
+      
+      }]
+      
+      });
+            </script>  
+              </div>
+              </div>
+            </section>
           <!-- UTVECKLING MELLAN TVÅ ÅR -->
           <section class="ssk card h-100" aria-labelledby="cardTitleTwo">
             <header class="header">
               <h4 class="card-title text-center" id="cardTitleOne">Hur många arbetar ett år efter erhållen legitimation?</h4>
             </header>
               <div class="ssk-info">
-              <p class="info-text">Vi har undersökt hur många män respektive kvinnor år 2018 – 2019 som är i arbete ett år efter de fått sin legitimation utfärdad, samt hur många procent som inte är i arbete. Både på läkar- och sjuksköterskesidan ser man att det är flera som inte arbetar efter avslutade studier. 
-                En anledning till det kan vara att både sjuksköterskor och läkare ofta väljer att vidareutbilda sig. Det kan också vara en viss procent som tar arbete utomlands.
-              <p class="antal-1">562 st</p>
-              <p class="antal-2">649 st</p>
-              <p class="procent-1">+ 15,5%</p>
-              <img src="svg-files/uteckling-sjukskoterskor.svg" class="picture_nurse-1" alt="En illustration på en kvinnlig sjuksköterska">
-              <p class="ar-2012">2012</p>
-              <p class="ar-2019">2019</p>
+              <p class="info-text lead">Vi har undersökt hur många män respektive kvinnor år 2018 – 2019 som är i arbete ett år efter de fått sin legitimation utfärdad, samt hur många procent som inte är i arbete. Både på läkar- och sjuksköterskesidan ser man att det är flera som inte arbetar efter avslutade studier. 
+                En anledning till det kan vara att både sjuksköterskor och läkare ofta väljer att vidareutbilda sig. Det kan också vara en viss procent som tar arbete utomlands.</p>
+              <p class="rubrik-1"><b>Så många fick legitiamtion 2018:</b></p>
+              <p class="rubrik-2"><b>Så många är i jobb ett år efter:<br> erhållen legitmation 2019:</b></p>
+              <img src="svg-files/uteckling-sjukskoterskor.svg" class="picture_nurse_multiply" alt="En illustration på en kvinnlig sjuksköterska">
+              <p class="antal-3">3719 kvinnor</p>
+              <p class="antal-4">611 män</p>
+              <p class="antal-5">2935 kvinnor <br>(78,9% av 3719)</p>
+              <p class="antal-6">460 män<br>(75,2% av 611)</p>
             </div>
             <hr class="dashed">
             <div class="ssk-info">
-              <p class="antal-1">384 st</p>
-              <p class="antal-2">563 st</p>
-              <p class="procent-1">+ 46,6%</p>
-              <img src="svg-files/uteckling-lakare.svg" class="picture_nurse-1" alt="En illustration på en kvinnlig sjuksköterska">
-              <p class="ar-2012">2012</p>
-              <p class="ar-2019">2019</p>
+              <img src="svg-files/uteckling-lakare.svg" class="picture_doctor_multiply" alt="En illustration på en kvinnlig sjuksköterska">
+              <p class="antal-3">656 kvinnor</p>
+              <p class="antal-4">536 män</p>
+              <p class="antal-5">635 kvinnor<br>(96,8 av 656)</p>
+              <p class="antal-6">480 män<br>(89,6% av 536)<br></p>
             </div>
           </section>
       </div>
