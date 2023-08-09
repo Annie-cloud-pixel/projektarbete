@@ -7,10 +7,15 @@
 }
 
 .info {
-    margin: 0 auto;
-    float: left;
-    width: 100%;
-  }
+  margin: 0 auto;
+  float: left;
+  width: 100%;
+}
+
+.row {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
 /* VIT DIVIDER */
 
@@ -33,8 +38,6 @@
 .custom-shape-divider-top-1684869091 .shape-fill {
   fill: #ffffff;
 }
-
-
 
 /* BLÅ DIVIDER */
 
@@ -154,8 +157,7 @@
 /* SKÄRM FRÅM 360PX */
 
 @media screen and (min-width: 360px) {
-
-    /* HEADER */
+  /* HEADER */
 
   .title-header {
     font-size: 2.2rem;
@@ -164,20 +166,20 @@
   }
 
   .sub-title {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: "Quicksand", sans-serif;
   }
 
   .intro-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: "Quicksand", sans-serif;
     text-align: center;
   }
 
-    /* KORT MED INFO */
+  /* KORT MED INFO */
 
   .card-title {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-family: "Oswald", sans-serif;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -197,14 +199,14 @@
   }
 
   .info-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
     font-family: "Quicksand", sans-serif;
   }
 
   .picture-nurse-1 {
     margin-bottom: 2rem;
   }
-  
 
   .ar-2012 {
     float: left;
@@ -301,6 +303,7 @@
     float: left;
     position: absolute;
     margin-left: 2%;
+    max-width: 50%;
     font-size: auto;
     font-family: "Quicksand", sans-serif;
   }
@@ -314,7 +317,6 @@
     font-family: "Quicksand", sans-serif;
   }
 
-
   .rubrik-3 {
     float: left;
     position: absolute;
@@ -322,8 +324,6 @@
     font-size: 1rem;
     font-family: "Oswald", sans-serif;
   }
-
-
 
   .picture_doctor_multiply {
     margin-top: 5%;
@@ -337,14 +337,12 @@
     margin-top: 4rem;
     font-size: 1rem;
   }
-
 }
 
 /* SKÄRM FRÅM 720PX */
 
 @media screen and (min-width: 720px) {
-
-/* HEADER */
+  /* HEADER */
 
   .container {
     max-width: 1280x;
@@ -357,31 +355,32 @@
   }
 
   .sub-title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: "Quicksand", sans-serif;
   }
 
   .intro-text {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: "Quicksand", sans-serif;
     text-align: center;
   }
 
-/* KORT MED INFO */
+  /* KORT MED INFO */
 
   .card-title {
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-family: "Oswald", sans-serif;
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
 
   .info-text {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    text-align: center;
     font-family: "Quicksand", sans-serif;
   }
 
-/* KORT 1 & 2 */
+  /* KORT 1 & 2 */
 
   .procent-1 {
     position: absolute;
@@ -452,7 +451,6 @@
     font-family: "Oswald", sans-serif;
   }
 
-
   .picture_nurse_multiply {
     margin-top: 5%;
   }
@@ -506,14 +504,12 @@
   .info-2 {
     padding-bottom: 2%;
   }
-
 }
 
 /* SKÄRM FRÅM 1080PX */
 
 @media screen and (min-width: 1080px) {
-
- /* HEADER */
+  /* HEADER */
 
   .title-header {
     font-size: 4rem;
@@ -523,21 +519,21 @@
 
   .sub-title {
     font-family: "Quicksand", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .intro-text {
     font-family: "Quicksand", sans-serif;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
-/* KORT MED INFO */
+  /* KORT MED INFO */
 
   .card-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: "Oswald", sans-serif;
-    margin-top: 1rem;
+    margin-top: 1.6rem;
     margin-bottom: 2rem;
   }
 
@@ -557,7 +553,7 @@
   .info-text {
     font-family: "Quicksand", sans-serif;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   /* KORT 1 & 2 */
@@ -636,7 +632,6 @@
     font-family: "Oswald", sans-serif;
   }
 
-
   .picture_nurse_multiply {
     margin-top: 5%;
   }
@@ -694,5 +689,4 @@
   .info-2 {
     padding-bottom: 5%;
   }
-
 }

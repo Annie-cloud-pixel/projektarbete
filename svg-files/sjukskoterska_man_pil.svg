@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 27.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 442.5 245.3" style="enable-background:new 0 0 442.5 245.3;" xml:space="preserve">
+	 viewBox="0 0 139.2 245.3" style="enable-background:new 0 0 139.2 245.3;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;}
 	.st1{display:inline;fill:none;}
@@ -17,10 +17,6 @@
 	.st11{fill:#E2CCA4;}
 	.st12{fill:#157E56;}
 	.st13{fill:#020203;}
-	.st14{fill:none;stroke:#1D1D1B;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:14.997,9.9979;}
-	.st15{fill:#1D1D1B;stroke:#1D1D1B;stroke-miterlimit:10;}
-	.st16{fill:none;stroke:#1D1D1B;stroke-width:3;stroke-miterlimit:10;}
-	.st17{fill:none;stroke:#1D1D1B;stroke-width:2;stroke-miterlimit:10;}
 </style>
 <g class="st0">
 	<line class="st1" x1="218.9" y1="201.3" x2="432.7" y2="59.8"/>
@@ -93,14 +89,4 @@
 			C67.7,126.5,67.7,126.6,67.8,126.7z"/>
 	</g>
 </g>
-<g>
-	<g>
-		<line class="st14" x1="180" y1="175.7" x2="388.6" y2="90.6"/>
-		<g>
-			<polygon class="st15" points="385.5,100.6 383.7,99.8 387.9,90.9 378.6,87.4 379.4,85.5 390.6,89.7 			"/>
-		</g>
-	</g>
-</g>
-<line class="st16" x1="139.8" y1="219.1" x2="430.8" y2="219.1"/>
-<rect x="140.8" y="43.1" class="st17" width="289" height="177.9"/>
 </svg>
