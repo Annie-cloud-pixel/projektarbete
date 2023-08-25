@@ -551,6 +551,7 @@
   }
 
   .info-text {
+    width: clamp(40ch, 100%, 80ch);
     font-family: "Quicksand", sans-serif;
     text-align: center;
     font-size: 1.6rem;
