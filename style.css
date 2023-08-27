@@ -527,6 +527,8 @@
   }
 
   .intro-text {
+    max-width: 80ch;
+    min-width: 40ch;
     font-family: "Quicksand", sans-serif;
     text-align: center;
     font-size: 1.6rem;
