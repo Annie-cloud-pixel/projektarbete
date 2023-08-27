@@ -370,6 +370,7 @@
   .card-title {
     max-width: 80ch;
     min-width: 40ch;
+    width: 100%;
     font-size: 2rem;
     font-family: "Oswald", sans-serif;
     margin-top: 1rem;
@@ -379,6 +380,7 @@
   .info-text {
     max-width: 80ch;
     min-width: 40ch;
+    width: 100%;
     font-size: 1.5rem;
     text-align: center;
     font-family: "Quicksand", sans-serif;
@@ -529,6 +531,7 @@
   .intro-text {
     max-width: 80ch;
     min-width: 40ch;
+    width: 100%;
     font-family: "Quicksand", sans-serif;
     text-align: center;
     font-size: 1.6rem;
@@ -539,6 +542,7 @@
   .card-title {
     max-width: 80ch;
     min-width: 40ch;
+    width: 100%;
     font-size: 2.5rem;
     font-family: "Oswald", sans-serif;
     margin-top: 1.6rem;
@@ -561,6 +565,7 @@
   .info-text {
     max-width: 80ch;
     min-width: 40ch;
+    width: 100%;
     font-family: "Quicksand", sans-serif;
     text-align: center;
     font-size: 1.6rem;
